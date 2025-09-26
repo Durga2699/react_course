@@ -46,6 +46,11 @@ console.log(lastIndex)
 fruits[lastIndex]='durga'
 console.log(fruits)
 
+const  durga = Array(8).fill("durga")
+console.log("array filled with the data durga",durga)
+
+
+
 const index= fruits.indexOf('papaya')
 console.log(index)
 const lastIndexFruits=fruits.lastIndexOf('banana')
@@ -54,6 +59,8 @@ console.log("Initial Fruits:",fruits)
 const remove=fruits.splice(1,2)   //  first index is the  index position  and  sectond index is the how many posttion to remove 
 console.log("remove second and third",remove)
 console.log(fruits)
+
+
 
 
 
